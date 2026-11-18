@@ -20,8 +20,8 @@ INSTALL_REQUIRES = [
       'xarray',
       'matplotlib',
       'netcdf4',
-      'hdf5',
-      'cftime'
+      'h5py',
+      'cftime',
 ]
 
 setup(name=PACKAGE_NAME,
